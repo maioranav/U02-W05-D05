@@ -405,3 +405,7 @@ footer ul > li {
     display: none;
   }
 }
+
+g {
+  transition: opacity 0.2s ease;
+}
