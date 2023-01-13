@@ -270,7 +270,7 @@ footer ul > li {
   background-color: #1a8917;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1475px) {
   header {
     width: 94vw;
     padding-left: 3vw;
@@ -308,9 +308,6 @@ footer ul > li {
 }
 
 @media screen and (max-width: 688px) {
-  .artwork {
-    display: none;
-  }
   header ul > li {
     display: none;
   }
@@ -329,9 +326,26 @@ footer ul > li {
   }
 }
 
+@media screen and (min-width: 1476px) and (max-width: 1759px) {
+  .aImg {
+    min-width: unset;
+  }
+  .aImg img {
+    aspect-ratio: 1;
+    object-fit: cover;
+  }
+}
+
 @media screen and (max-width: 621px) {
   .topSection > .container {
     width: 90%;
+  }
+  .aImg {
+    min-width: unset;
+  }
+  .aImg img {
+    aspect-ratio: 1;
+    object-fit: cover;
   }
 }
 
@@ -380,6 +394,11 @@ footer ul > li {
 }
 @media screen and (max-width: 305px) {
   header ul > li:last-child {
+    display: none;
+  }
+}
+@media screen and (max-width: 840px) {
+  .artwork {
     display: none;
   }
 }
