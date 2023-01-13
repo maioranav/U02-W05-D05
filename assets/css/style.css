@@ -265,7 +265,6 @@ footer ul > li {
 }
 .stickynav {
   background-color: white;
-  transition: all 1s ease;
 }
 .stickynav li:last-child {
   background-color: #1a8917;
