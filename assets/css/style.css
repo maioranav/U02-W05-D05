@@ -21,6 +21,9 @@ header {
 .bg-yellow {
   background-color: #ffc017;
 }
+.logo {
+  cursor: pointer;
+}
 header ul {
   display: flex;
   justify-content: flex-end;
