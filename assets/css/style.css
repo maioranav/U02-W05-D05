@@ -16,7 +16,7 @@ header {
   font-size: 0.9em;
   background-color: white;
   z-index: 3;
-  transition: all 1s ease;
+  transition: background-color 1s ease;
 }
 .bg-yellow {
   background-color: #ffc017;
