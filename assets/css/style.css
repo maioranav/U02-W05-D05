@@ -395,7 +395,12 @@ footer ul > li {
     display: none;
   }
 }
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 1066px) {
+  .artwork {
+    right: -250px;
+  }
+}
+@media screen and (max-width: 866px) {
   .artwork {
     display: none;
   }
